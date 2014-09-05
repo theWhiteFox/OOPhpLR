@@ -1,5 +1,5 @@
 <?php
-Class Users {
+Class User {
 	private $_db;
 	
 	public function __construct($user = null) {
