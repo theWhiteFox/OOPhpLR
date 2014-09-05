@@ -8,7 +8,11 @@ Class User {
 
 	public function create($fields = array()) {
 		if(!$this->_db->insert('users', $fields)) {
-			throw new Exception('Have got a problem? You fuckhead'); 
+			throw new Exception('Have got a problem?sdjjsdfjgjdsifg
+
+
+
+			You fuckhead'); 
 		}
 	}
 }
