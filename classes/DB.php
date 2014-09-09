@@ -22,7 +22,7 @@ class DB {
 		}
 	}
 	
-	// Instanciate object if not set do set
+	// Instantiate object if not set do set
 	// Create a new DB instance
 	public static function getInstance() {
 		if(!isset(self::$_instance)) {

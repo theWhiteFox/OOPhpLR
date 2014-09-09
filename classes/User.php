@@ -1,5 +1,6 @@
 <?php
 Class User {
+	/* Create a user */
 	private $_db;
 	
 	public function __construct($user = null) {
@@ -7,8 +8,8 @@ Class User {
 	}
 
 	public function create($fields = array()) {
-		if(!$this->_db->insert('users', $fields)) {
-			throw new Exception('You gotta problem?You fuckhead'); 
+		if($this->_db->insert('users', $fields)) {
+			throw new Exception('You gotta problem? You fuckhead'); 
 		}
 	}
 }
