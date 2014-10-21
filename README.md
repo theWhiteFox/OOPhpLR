@@ -1,5 +1,4 @@
-OO Php Login Register
+OO PHP Login Register
 =======
 
-Udemy OO PhpLogin/register
 
